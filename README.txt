@@ -1,42 +1,44 @@
-Brick Breaker Game using Bootstrap in VanillaJS
+# Brick Breaker Game using Bootstrap in VanillaJS
+**Brick Breaker Game** is a simple web application built with JavaScript, HTML, CSS, and Bootstrap. In this classic game, players control a paddle to bounce a ball upward and break bricks arranged in rows. It provides fun gameplay while showcasing basic game development techniques in Vanilla JavaScript.
 
-The Brick Breaker Game is a web application created using the JavaScript programming language. The purpose of this project is to provide fun and enjoyable gameplay by breaking bricks with a ball. The game is displayed in a web browser and contains several object shapes. The Brick Breaker Game in VanillaJS is designed to teach you how to develop a simple game app. This project uses basic coding techniques in the JavaScript programming language.
+This project is free to download and serves as an educational resource for learning JavaScript game development fundamentals.
 
-The Brick Breaker Game using Bootstrap in VanillaJS with Source Code is free to be downloaded just read the content below for more info. This application is for educational purpose only.
+---
+### Basic Information
+- **Language Used**: JavaScript
+- **Front-end Technologies**: HTML & CSS with Bootstrap
+- **Code Editor**: Notepad++ or any text editor supporting HTML files
+- **Type**: Web Application
+- **Database**: None required
 
-Brick Breaker Game using Bootstrap in VanillaJS with Source Code Basic Information
-Language used: JavaScript
-Front-end used: HTML & CSS
-Coding Tool used: Notepad++ or any text editor that can run html files
-Type: Web Application
-Database used: None
-About Brick Breaker Game
-The Brick Breaker Game is a web application coded purely in JavaScript. The game uses a Bootstrap template to create the design structure. The player controls the game using keyboard bindings (Left Arrow Key to move left, Right Arrow Key to move right). The game is simple: the player must catch the ball correctly to make it bounce upward and break the bricks. If you fail to catch the ball, the game will be over. Try to destroy all the bricks above to finish the game.
+---
 
-Brick Breaker Game using Bootstrap in VanillaJS 
-Features
-User Interface (UI)
-Bootstrap Integration: Uses Bootstrap's responsive grid and styling system for a clean, modern look.
-Game Area: The game area consists of a grid of bricks at the top, a paddle controlled by the player at the bottom, and a ball that moves around the game area.
-Score and Lives Display: Displays the player’s current score and remaining lives in the Bootstrap-styled header.
-Responsive Design: The game adjusts seamlessly to different screen sizes, making it playable on desktop, tablets, and mobile devices.
+### About the Game
+The **Brick Breaker Game** utilizes a Bootstrap template for a clean, responsive design. Players control the paddle using keyboard keys (Left Arrow to move left, Right Arrow to move right). The goal is simple: keep the ball in play by bouncing it off the paddle and breaking all bricks to complete the level. Missing the ball results in a loss of lives until the game is over.
 
-Core Features
-Ball Movement: The ball moves around the game area, bouncing off the walls, paddle, and bricks.
-Paddle Control: Players can control the paddle using either keyboard arrow keys or touch/mouse movements to bounce the ball back into play.
-Brick Collision Detection: The ball breaks bricks upon collision, with the game updating the score for each broken brick.
-Game Levels: The game increases difficulty by reducing the size of the paddle or increasing the ball speed as levels progress.
-Game Over: The game ends when the player loses all lives, and a "Game Over" message is displayed.
+---
 
-Interactivity
-Paddle Movement: Players can control the paddle in real-time by moving it left or right using the keyboard or mouse/touch events.
-Collision Physics: JavaScript handles the collision between the ball and bricks, walls, and paddle, ensuring realistic bounce effects.
-Score Tracking: The score is updated in real-time as the player breaks bricks, with the score increasing for each brick destroyed.
+### Features
+#### User Interface (UI)
+- **Bootstrap Integration**: Uses Bootstrap’s grid and styling for a responsive, modern look.
+- **Game Area**: Features a brick grid at the top, a player-controlled paddle at the bottom, and a moving ball.
+- **Score and Lives Display**: Shows the player’s score and remaining lives in a Bootstrap-styled header.
+- **Responsive Design**: Adjusts seamlessly across devices (desktop, tablet, mobile).
 
-Brick Breaker Game using Bootstrap in VanillaJS
-Installation Guide
-Download the zip.
-Locate and Extract the zip file.
-Open the extracted folder
-Find and locate the file "index.html".
-Open the file in a web browser(Chrome, Firefox, etc..).
+#### Core Gameplay
+- **Ball Movement**: The ball bounces around the game area, interacting with walls, the paddle, and bricks.
+- **Paddle Control**: Players can control the paddle using arrow keys or touch/mouse movements.
+- **Brick Collision Detection**: Each brick collision breaks the brick, increasing the player’s score.
+- **Game Levels**: Difficulty increases as levels progress by shrinking the paddle or increasing ball speed.
+- **Game Over**: Displays a "Game Over" message when the player loses all lives.
+
+#### Interactivity
+- **Paddle Movement**: Real-time control of the paddle using keyboard or mouse/touch inputs.
+- **Collision Physics**: JavaScript handles realistic bounce effects on collisions with walls, paddle, and bricks.
+- **Score Tracking**: Score updates in real-time as bricks are broken.
+
+### Installation Guide
+1. **Download the Source Code**: Download the provided zip file.
+2. **Extract the Files**: Locate and extract the zip file.
+3. **Open the Application**: Find the `index.html` file in the extracted folder.
+4. **Run in Browser**: Open `index.html` in a web browser (e.g., Chrome, Firefox).
